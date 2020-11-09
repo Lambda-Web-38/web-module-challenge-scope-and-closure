@@ -64,8 +64,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used to separate the personalDice function from the globally declared variables.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Parameter can change, roll function stays
+
 c. What is the lexical scope of `newRoll`? 
+its parent function
 
 ### Task 2c - Exit Ticket
 
